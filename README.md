@@ -1,0 +1,3 @@
+- **Alumno:** Luciano Agustin Fernandez Actis  
+- **Legajo:** 64041  
+- **Carrera:** Ingeniería Informática
