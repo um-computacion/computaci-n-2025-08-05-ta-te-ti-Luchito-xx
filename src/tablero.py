@@ -1,6 +1,4 @@
-class PosOcupadaException(Exception):
-    ...
-
+from exception import PosOcupadaException
 
 class Tablero:
     def __init__(self):
@@ -11,8 +9,8 @@ class Tablero:
         ]
 
     def poner_la_ficha(self, fil, col, ficha):
-        # ver si esta ocupado...
+        # ver si esta ocupado
         if self.contenedor[fil][col] == "":
             self.contenedor[fil][col] = ficha
         else:
-            raise PosOcupadaException("pos ocupada!")
+            raise PosOcupadaException("\n !!Posicion ocupada¡¡")
